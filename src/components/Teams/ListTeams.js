@@ -3,40 +3,27 @@ import Team from './Team';
 import { useNavigate } from 'react-router-dom'
 
 import { useSelector } from 'react-redux'
-import { getSquadre } from '../../config/action';
+import { getSquadre } from '../../config/action'
 
 const selectSquadre = state => state !== undefined ? state.squadre : undefined
 
 const ListTeams = (props, state) => {
-    //const [listaSquadre, setListaSquadre] = useState([]);
-    const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
 
     const goToTeam = (path = String) => {
         navigate(path)
     }
 
-    let image= require.context('../../', true);
+    let image = require.context('../../', true);
 
     const listaSquadre = useSelector(selectSquadre)
 
     useEffect(() => {
-        //console.log(loading)
-        // if (props.squadre !== undefined) {
-        //     //console.log('setto')
-        //     setListaSquadre(props.squadre)
-        //     setLoading(false)
-        // }
-        // if (loading)
-            getSquadre()
+        getSquadre()
     }, [])
     return (
         <div className="container-fluid mt-2" style={{ height: '100%' }}>
-            {loading ? (
-                <div className='d-flex justify-content-center align-items-center h-100'>
-                    <img src={image('./ball.png').default} className='App-logo' />
-                </div>
-            ) : (
+            {
                 listaSquadre !== undefined ? (
                     listaSquadre.length > 0 ? (
                         <div className="row row-cols-2 mt-1">
@@ -49,10 +36,12 @@ const ListTeams = (props, state) => {
                             }
                         </div>) : (
                         `Nessuna squadra`)
-                ):(
-                    "Lista vuota"
+                ) : (
+                    <div className='d-flex justify-content-center align-items-center h-100'>
+                        <img src={image('./ball.png').default} className='App-logo' />
+                    </div>
                 )
-            )}
+            }
         </div>
     )
 }

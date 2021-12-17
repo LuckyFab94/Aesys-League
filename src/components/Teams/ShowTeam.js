@@ -1,27 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux'
-import store from '../../config/store'
-import { PARTITE } from '../../config/actionReducer'
 
 import { getSquadra } from '../../config/action';
 const selectSquadra = state => state.squadra
 
 const ShowTeam = (props) => {
     const { id } = useParams();
-    //const [squadra, setSquadra] = useState(undefined)
-    const [loading, setLoading] = useState(false)
     const squadra = useSelector(selectSquadra)
 
     useEffect(() => {
-        //console.log(props)
-        // if(props.squadra !== undefined){
-        //     setSquadra(props.squadra)
-        //     //console.log('setto')
-        //     setLoading(false)
-        // }
-        // //console.log(loading)
-        // if(loading)
         getSquadra(id)
     }, [])
 
@@ -32,11 +20,7 @@ const ShowTeam = (props) => {
     return (
         <React.Fragment>
             <div className="container-fluid mt-2" style={{ height: '100%' }}>
-                {loading ? (
-                    <div className='d-flex justify-content-center align-items-center h-100'>
-                        <img src={image('./ball.png').default} className='App-logo' />
-                    </div>
-                ) : (
+                {
                     <React.Fragment>
                         {squadra !== undefined ? (
                             <React.Fragment>
@@ -73,12 +57,12 @@ const ShowTeam = (props) => {
                                 </div>
                             </React.Fragment>
                         ) : (
-                            "eabajhdhdjahj"
+                            <div className='d-flex justify-content-center align-items-center h-100'>
+                                <img src={image('./ball.png').default} className='App-logo' />
+                            </div>
                         )}
                     </React.Fragment>
-                )}
-
-
+                }
             </div>
         </React.Fragment>
     )
