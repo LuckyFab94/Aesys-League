@@ -24,7 +24,7 @@ const ListTeams = (props, state) => {
         getSquadre()
     }, [])
     return (
-        <div className="container-fluid mt-2" style={{ height: '100%' }}>
+        <div className="container-fluid mt-2" style={{ height: '90%' }}>
             {
                 isLoading ? (
                     <div className='d-flex justify-content-center align-items-center h-100'>

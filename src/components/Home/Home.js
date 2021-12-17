@@ -17,7 +17,7 @@ const Home = (props) => {
     const classificaMarcatori = marcatori.sort((a, b) => (a.goal < b.goal) ? 1 : -1)
 
     return (
-        <div className='container-fluid' style={{ height: '100%' }}>
+        <div className='container-fluid' style={{ height: '90%' }}>
             {isLoading ? (
                 <div className='d-flex justify-content-center align-items-center h-100'>
                     <img src={image('./ball.png').default} className='App-logo' />

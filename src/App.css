@@ -57,6 +57,7 @@
 
 html, body{
   height: 100%;
+  padding-top: 2.5rem;
 }
 
 table {
@@ -81,6 +82,15 @@ table {
     transform: rotate(360deg);
   }
 } */
+
+.footer {
+  width: 90%;
+  background-color: #3f3f38;
+  margin: auto;
+  text-align: center;
+  clear: both;
+}
+
 
 @keyframes rotate {
   0% {

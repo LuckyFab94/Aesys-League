@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 const Header = (props) => {
     return (
             <header style={{ backgroundColor: '#3f3f38' }}>
-                <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#3f3f38' }}>
+                <nav className="navbar navbar-expand-md navbar-dark fixed-top" style={{ backgroundColor: '#3f3f38' }}>
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/">
                             <img src={logo} className='Header-logo' />
