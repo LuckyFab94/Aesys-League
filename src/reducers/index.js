@@ -22,7 +22,8 @@ export default function reducer (state = {squadre: []}, action){
         case CLASSIFICA:
             return {
                 ...state,
-                classifica: action.payload,
+                classifica: action.payload.squadre,
+                marcatori: action.payload.marcatori,
                 isLoading: false
             }
         default: return state

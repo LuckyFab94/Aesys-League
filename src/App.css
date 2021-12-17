@@ -65,3 +65,31 @@ table {
   border: 1;
   overflow: hidden;
 }
+
+.element {
+  animation: App-logo-spin infinite 2s linear,
+  rotate infinite 10s linear;
+  border-radius: 10px;
+  height: 7vmin;
+}
+
+/* @keyframes pulse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@keyframes rotate {
+  0% {
+    margin-left: 0%;
+  }
+  50%{
+    margin-left: 50%;
+  }
+  100% {
+    margin-left: 100%;
+  }
+}

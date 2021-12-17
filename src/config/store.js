@@ -8,6 +8,7 @@ let initialState = {
         giocatori: []
     },
     classifica: [],
+    marcatori: [],
     isLoading: false
 }
 

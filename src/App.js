@@ -12,7 +12,6 @@ import Home from './components/Home/Home';
 
 function App() {
   const location = useLocation();
-  //console.log(location)
 
 
   useEffect(() => {
