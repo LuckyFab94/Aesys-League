@@ -29,9 +29,6 @@ const Header = (props) => {
                                 <a className="nav-link disabled" href="#" aria-disabled="true">Disabled</a>
                             </li> */}
                         </ul>
-                        <div className='navbar-nav'>
-                            <span className='nav-link active'>Prova</span>
-                        </div>
                     </div>
                 </div>
             </nav>
