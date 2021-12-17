@@ -5,7 +5,8 @@ import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import { getSquadre } from '../../config/action'
 
-const selectSquadre = state => state !== undefined ? state.squadre : undefined
+
+
 
 const ListTeams = (props, state) => {
     const navigate = useNavigate();
@@ -16,7 +17,8 @@ const ListTeams = (props, state) => {
 
     let image = require.context('../../', true);
 
-    const listaSquadre = useSelector(selectSquadre)
+    const listaSquadre = useSelector(state => state.squadre)
+    const isLoading = useSelector(state => state.isLoading)
 
     useEffect(() => {
         getSquadre()
@@ -24,7 +26,11 @@ const ListTeams = (props, state) => {
     return (
         <div className="container-fluid mt-2" style={{ height: '100%' }}>
             {
-                listaSquadre !== undefined ? (
+                isLoading ? (
+                    <div className='d-flex justify-content-center align-items-center h-100'>
+                        <img src={image('./ball.png').default} className='App-logo' />
+                    </div>
+                ) : (
                     listaSquadre.length > 0 ? (
                         <div className="row row-cols-2 mt-1">
                             {
@@ -36,10 +42,6 @@ const ListTeams = (props, state) => {
                             }
                         </div>) : (
                         `Nessuna squadra`)
-                ) : (
-                    <div className='d-flex justify-content-center align-items-center h-100'>
-                        <img src={image('./ball.png').default} className='App-logo' />
-                    </div>
                 )
             }
         </div>
