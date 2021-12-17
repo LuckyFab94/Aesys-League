@@ -29,18 +29,13 @@ const Home = (props) => {
                                     <td colSpan={13} className='text-center'>Classifica</td>
                                 </tr>
                                 <tr className='table-dark'>
-                                    <th scope="col">#</th>
-                                    <th scope="col" colSpan={2} className='w-25'></th>
+                                    <th scope="col" style={{width: '5%'}}>#</th>
+                                    <th scope="col" colSpan={2} className='w-50'></th>
                                     <th scope="col">PT</th>
                                     <th scope="col">G</th>
                                     <th scope="col">V</th>
                                     <th scope="col">N</th>
                                     <th scope="col">P</th>
-                                    <th scope="col">PN</th>
-                                    <th scope="col">D</th>
-                                    <th scope="col">Ft</th>
-                                    <th scope="col">Sb</th>
-                                    <th scope="col">Df</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -53,11 +48,6 @@ const Home = (props) => {
                                         <td>{riga.v}</td>
                                         <td>{riga.n}</td>
                                         <td>{riga.p}</td>
-                                        <td>@mdo</td>
-                                        <td>@mdo</td>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>Otto</td>
                                     </tr>
                                 ))}
                             </tbody>
