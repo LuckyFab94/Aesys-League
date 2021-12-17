@@ -289,11 +289,30 @@
       ]
     }
   ],
-  "comments": [
+  "classifica": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "squadra": "Squadra 1",
+      "pt": 9,
+      "g": 3,
+      "v": 3,
+      "n": 0,
+      "p": 0
+    },
+    {
+      "squadra": "Squadra 2",
+      "pt": 3,
+      "g": 3,
+      "v": 2,
+      "n": 0,
+      "p": 1
+    },
+    {
+      "squadra": "Squadra 3",
+      "pt": 4,
+      "g": 3,
+      "v": 1,
+      "n": 1,
+      "p": 1
     }
   ],
   "profile": {
