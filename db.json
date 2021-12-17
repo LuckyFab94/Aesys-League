@@ -1,0 +1,302 @@
+{
+  "squadre": [
+    {
+      "id": 1,
+      "nome": "Secondo Palo",
+      "logo": "./Secondo_Palo.jpeg",
+      "presidente": "Carlo Provenzano",
+      "giocatori": [
+        {
+          "nome": "Carlo",
+          "cognome": "Provenzano"
+        },
+        {
+          "nome": "Davide",
+          "cognome": "Rossi"
+        },
+        {
+          "nome": "Luca",
+          "cognome": "De Bellis"
+        },
+        {
+          "nome": "Luca",
+          "cognome": "Di Marco"
+        },
+        {
+          "nome": "Davide",
+          "cognome": "Di Gironimo"
+        },
+        {
+          "nome": "Fabrizio",
+          "cognome": "Cerratti"
+        },
+        {
+          "nome": "Stefano",
+          "cognome": "Di Gironimo"
+        },
+        {
+          "nome": "Luigi",
+          "cognome": "Castellano"
+        },
+        {
+          "nome": "Paolo",
+          "cognome": "Di Fonzo"
+        },
+        {
+          "nome": "Piergiorgio",
+          "cognome": "Benigni"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Patetico Madrid",
+      "logo": "./Patetico_Madrid.jpeg",
+      "presidente": "Cesare De Sanctis",
+      "giocatori": [
+        {
+          "nome": "Cesare",
+          "cognome": "De Sanctis"
+        },
+        {
+          "nome": "Samuel",
+          "cognome": "Finocchio"
+        },
+        {
+          "nome": "Alessio",
+          "cognome": "Mancini"
+        },
+        {
+          "nome": "Felice",
+          "cognome": "Di Domenico"
+        },
+        {
+          "nome": "Matteo",
+          "cognome": "Di Persio"
+        },
+        {
+          "nome": "Samuel",
+          "cognome": "Roberto"
+        },
+        {
+          "nome": "Michele",
+          "cognome": "Cirasola"
+        },
+        {
+          "nome": "Riccardo",
+          "cognome": "Pieragostino"
+        },
+        {
+          "nome": "Giuseppe",
+          "cognome": "Di Biase"
+        },
+        {
+          "nome": "Mattia",
+          "cognome": "Di Pietro"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Rustel Learning",
+      "logo": "./Rustel_Learning.jpeg",
+      "presidente": "Denny Casabianca",
+      "giocatori": [
+        {
+          "nome": "Enrico",
+          "cognome": "Blandini"
+        },
+        {
+          "nome": "Alessandro",
+          "cognome": "Cavacini"
+        },
+        {
+          "nome": "Fabio",
+          "cognome": "Carusi"
+        },
+        {
+          "nome": "Tommaso",
+          "cognome": "Musilli"
+        },
+        {
+          "nome": "Daniele Giovanni",
+          "cognome": "Neri"
+        },
+        {
+          "nome": "Gianluca",
+          "cognome": "Marino"
+        },
+        {
+          "nome": "Alessandro",
+          "cognome": "Pace"
+        },
+        {
+          "nome": "Francesco",
+          "cognome": "Pica"
+        },
+        {
+          "nome": "Alessio",
+          "cognome": "Valentini"
+        },
+        {
+          "nome": "Denny",
+          "cognome": "Casabianca"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Turkeys_FC",
+      "logo": "./Turkeys_FC.jpeg",
+      "presidente": "Gregorio Palama",
+      "giocatori": [
+        {
+          "nome": "Gregorio",
+          "cognome": "Palama"
+        },
+        {
+          "nome": "Andrea",
+          "cognome": "Anchini"
+        },
+        {
+          "nome": "Andrea",
+          "cognome": "Pellegrini"
+        },
+        {
+          "nome": "Davide",
+          "cognome": "Di Rico"
+        },
+        {
+          "nome": "Enzo",
+          "cognome": "Carolla"
+        },
+        {
+          "nome": "Pierre Donato",
+          "cognome": "Fortunato"
+        },
+        {
+          "nome": "Michele",
+          "cognome": "D'Agruma"
+        },
+        {
+          "nome": "Francesco",
+          "cognome": "Catani"
+        },
+        {
+          "nome": "Alessandro",
+          "cognome": "Marinelli"
+        },
+        {
+          "nome": "Giannantonio",
+          "cognome": "Urbano"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Atletico MNT",
+      "logo": "./punto_interrogativo.png",
+      "presidente": "Carlo Castellano",
+      "giocatori": [
+        {
+          "nome": "Carlo",
+          "cognome": "Castellano"
+        },
+        {
+          "nome": "Daniele",
+          "cognome": "Irsuti"
+        },
+        {
+          "nome": "Matteo",
+          "cognome": "Falcone"
+        },
+        {
+          "nome": "Matteo",
+          "cognome": "Comignani"
+        },
+        {
+          "nome": "Vito",
+          "cognome": "Caiata"
+        },
+        {
+          "nome": "Gianluigi",
+          "cognome": "Del Grosso"
+        },
+        {
+          "nome": "Maikol",
+          "cognome": "Orlandi"
+        },
+        {
+          "nome": "Andre Queiroz",
+          "cognome": "Da Silva"
+        },
+        {
+          "nome": "Davide",
+          "cognome": "Catalli"
+        },
+        {
+          "nome": "Alessio",
+          "cognome": "Farinelli"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Palanelli",
+      "logo": "./punto_interrogativo.png",
+      "presidente": "Mattia Antonelli",
+      "giocatori": [
+        {
+          "nome": "Biagio",
+          "cognome": "De Cataldo"
+        },
+        {
+          "nome": "Enrico",
+          "cognome": "Monte"
+        },
+        {
+          "nome": "Alessandro",
+          "cognome": "Feliciotto"
+        },
+        {
+          "nome": "Lorenzo",
+          "cognome": "Di Fabio"
+        },
+        {
+          "nome": "Antonio",
+          "cognome": "Villanova"
+        },
+        {
+          "nome": "Matteo",
+          "cognome": "Santalucia"
+        },
+        {
+          "nome": "Gianmarco",
+          "cognome": "Benigni"
+        },
+        {
+          "nome": "Danilo",
+          "cognome": "Persico"
+        },
+        {
+          "nome": "Luca",
+          "cognome": "Morricone"
+        },
+        {
+          "nome": "Mattia",
+          "cognome": "Antonelli"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
