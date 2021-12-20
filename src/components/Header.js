@@ -24,10 +24,6 @@ const Header = (props) => {
                                 <li className="nav-item">
                                     <Link className="nav-link active" to="/partite">Partite</Link>
                                 </li>
-                                {/*
-                            <li className="nav-item">
-                                <a className="nav-link disabled" href="#" aria-disabled="true">Disabled</a>
-                            </li> */}
                             </ul>
                         </div>
                     </div>
