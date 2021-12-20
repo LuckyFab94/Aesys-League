@@ -3,6 +3,7 @@ import { useLocation, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux'
 
 import { getSquadra } from '../../config/action';
+import Giocatore from '../Giocatore/Giocatore';
 
 const ShowTeam = (props) => {
     const { id } = useParams();
@@ -49,7 +50,7 @@ const ShowTeam = (props) => {
                                                         Giocatori:
                                                         {
                                                             squadra.giocatori.map((giocatore, index) => (
-                                                                <li key={index}>{giocatore.nome} {giocatore.cognome}</li>
+                                                                <Giocatore key={index} giocatore={giocatore} index={index}/>
                                                             ))
                                                         }
                                                     </ul>
